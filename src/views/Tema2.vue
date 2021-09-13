@@ -73,7 +73,7 @@
       div(titulo="Ley 100 de 1993")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Esta ley contempla o crea el sistema de seguridad social integral y se dictan otras disposiciones. Desde la conceptualización de seguridad social integral contemplada en la norma se entiende como “el conjunto de instituciones, normas y procedimientos, de que dispone la persona y la comunidad para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad” (Ley 100 de 1993). 
+            p Esta ley contempla o crea el Sistema de Seguridad Social Integral y se dictan otras disposiciones. Desde la conceptualización de seguridad social integral contemplada en la norma se entiende como “el conjunto de instituciones, normas y procedimientos, de que dispone la persona y la comunidad para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad” (Ley 100 de 1993). 
             p.mb-4 Para mayor conocimiento de la norma acceda al siguiente enlace:
             a.anexo.mb-4.mb-lg-0(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0100_1993.html" target="_blank")
               .anexo__icono
@@ -162,20 +162,20 @@
       img(src='@/assets/curso/img32.svg', style="width: auto;").m-auto
     .row
       .col-lg-4.p-4.bg-color3
-        p.mb-0 Las empresas pueden realizar contratos de trabajo y estos pueden ser de término fijo o indefinido de acuerdo con la duración, a su vez pueden pactarse de manera verbal o escrita. Es de resaltar que una vinculación laboral por medio de contrato genera al empleador el pago de una serie de obligaciones.
+        p.mb-0 #[b 1.] Las empresas pueden realizar contratos de trabajo y estos pueden ser de término fijo o indefinido de acuerdo con la duración, a su vez pueden pactarse de manera verbal o escrita. Es de resaltar que una vinculación laboral por medio de contrato genera al empleador el pago de una serie de obligaciones.
       .col-lg-4.p-4.bg-color3
-        p Deberá realizar el pago de las prestaciones sociales y aportes parafiscales.
+        p #[b 2.] Deberá realizar el pago de las prestaciones sociales y aportes parafiscales.
         p.mb-0 En las prestaciones sociales se encuentran beneficios como la prima de trabajo, las cesantías, los intereses a las cesantías y las vacaciones. Estos deberán ser liquidados y pagados por el empleador y está contemplado en los Artículos 186 y 306 del Código Sustantivo del Trabajo y la Ley 50 de 1990. 
       .col-lg-4.p-4.bg-color3
-        p Según lo contemplado en la Ley 100 de 1993, el empleador estará obligado a afiliar y pagar la seguridad social y los parafiscales a cada trabajador. Es preciso mencionar que el no cumplimiento de la norma puede acarrear una sanción por parte de UGPP y del Ministerio del Trabajo, demandas laborales y rechazo del pago de incapacidades médicas.
+        p #[b 3.] Según lo contemplado en la Ley 100 de 1993, el empleador estará obligado a afiliar y pagar la seguridad social y los parafiscales a cada trabajador. Es preciso mencionar que el no cumplimiento de la norma puede acarrear una sanción por parte de UGPP y del Ministerio del Trabajo, demandas laborales y rechazo del pago de incapacidades médicas.
         p.mb-0 Aquí es importante tener en cuenta el Decreto 558 de 2020 que se estableció mediante el marco de emergencia sanitaria causada por el Covid-19.
       .col-lg-4.p-4.bg-color3
-        p Según lo establecido en el Artículo 230 el empleador debe cancelar la dotación cada cuatrimestre (abril, agosto, diciembre) a aquellos trabajadores que devengan hasta dos salarios mínimos. Estos deberán incluir a trabajadores que lleven hasta el momento tres meses de trabajo. 
+        p #[b 4.] Según lo establecido en el Artículo 230 el empleador debe cancelar la dotación cada cuatrimestre (abril, agosto, diciembre) a aquellos trabajadores que devengan hasta dos salarios mínimos. Estos deberán incluir a trabajadores que lleven hasta el momento tres meses de trabajo. 
         p.mb-0 Por otra parte, es importante mencionar que la dotación no hace referencia a elementos de protección personal puesto que son diferentes, la primera está sujeta al salario del trabajador y la segunda se debe proveer sin excepción alguna.
       .col-lg-4.p-4.bg-color3
-        p.mb-0 Referente al auxilio de transporte, los trabajadores que devengan hasta dos salarios mínimos tendrán derecho a este auxilio. Es importante mencionar que el empleador no está obligado a pagar cuando se superan los dos salarios mínimos o cuando el trabajador no tiene la obligación de desplazarse (ejemplo: teletrabajo, autorización de licencias, incapacidad y vacaciones), lo cual está ratificado por el Concepto 02EE2020410600000024952 del 10-04-2020.
+        p.mb-0 #[b 5.] Referente al auxilio de transporte, los trabajadores que devengan hasta dos salarios mínimos tendrán derecho a este auxilio. Es importante mencionar que el empleador no está obligado a pagar cuando se superan los dos salarios mínimos o cuando el trabajador no tiene la obligación de desplazarse (ejemplo: teletrabajo, autorización de licencias, incapacidad y vacaciones), lo cual está ratificado por el Concepto 02EE2020410600000024952 del 10-04-2020.
       .col-lg-4.p-4.bg-color3
-        p.mb-0 En cuanto a la incapacidad médica se pueden identificar dos tipos: de origen laboral o de origen común, esto es importante identificarlo, pues dependiendo de la incapacidad se indica el responsable del pago y el valor a liquidar.  Es importante resaltar que el empleador está obligado a incluir en la nómina los valores de la incapacidad sin haber recibido el reembolso por parte de la Empresa Prestadora de Salud (EPS), pues no se puede dejar sin pago al trabajador.
+        p.mb-0 #[b 6.] En cuanto a la incapacidad médica se pueden identificar dos tipos: de origen laboral o de origen común, esto es importante identificarlo, pues dependiendo de la incapacidad se indica el responsable del pago y el valor a liquidar.  Es importante resaltar que el empleador está obligado a incluir en la nómina los valores de la incapacidad sin haber recibido el reembolso por parte de la Empresa Prestadora de Salud (EPS), pues no se puede dejar sin pago al trabajador.
     separador.mb-5
     #t_2_4
     .titulo-segundo

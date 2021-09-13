@@ -126,13 +126,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Código Sustantivo del Trabajo (C.S.T.). Junio 7 de 1951 (Colombia).',
+        'Código Sustantivo del Trabajo (C.S.T.). Junio 7 de 1951 (Colombia). ',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html',
     },
     {
       referencia:
-        'Constitución Política de Colombia [Const]. Art. 13. 20 de julio  de 1991 (Colombia).',
+        'Constitución Política de Colombia [Const]. Art. 13. 20 de julio  de 1991 (Colombia). ',
       link:
         'http://www.secretariasenado.gov.co/index.php/constitucion-politica',
     },
@@ -142,24 +142,24 @@ export default {
     },
     {
       referencia:
-        'Decreto 2351 de 1965. [Presidente de la República de Colombia]. Por el cual se hacen unas reformas al Código Sustantivo del Trabajo. Septiembre 4 de 1965.',
+        'Decreto 2351 de 1965. [Presidente de la República de Colombia]. Por el cual se hacen unas reformas al Código Sustantivo del Trabajo. Septiembre 4 de 1965. ',
       link: 'https://norcolombia.ucoz.com/DECRETOS/DECRETO_2351_DE_1965.pdf',
     },
     {
       referencia:
-        'Ley 50 de 1990. Por la cual se introducen reformas al Código Sustantivo del Trabajo y se dictan otras disposiciones. Diciembre 28 de 1990. DO. N° 39618.',
+        'Ley 50 de 1990. Por la cual se introducen reformas al Código Sustantivo del Trabajo y se dictan otras disposiciones. Diciembre 28 de 1990. DO. N° 39618. ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=281',
     },
     {
       referencia:
-        'Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. Diciembre 23 de 1993. DO. N° 41148.',
+        'Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. Diciembre 23 de 1993. DO. N° 41148. ',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0100_1993.html',
     },
     {
       referencia:
-        'Ley 797 de 2003. Por la cual se reforman algunas disposiciones del sistema general de pensiones previsto en la Ley 100 de 1993 y se adoptan disposiciones sobre los Regímenes Pensionales exceptuados y especiales. Enero 29 de 2003. DO. N° 45079.',
+        'Ley 797 de 2003. Por la cual se reforman algunas disposiciones del sistema general de pensiones previsto en la Ley 100 de 1993 y se adoptan disposiciones sobre los Regímenes Pensionales exceptuados y especiales. Enero 29 de 2003. DO. N° 45079. ',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0797_2003.html',
     },
@@ -211,7 +211,7 @@ export default {
     },
     {
       texto:
-        'Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. Diciembre 23 de 1993. DO. N° 41148.',
+        'Ley 100 de 1993. Por la cual se crea el Sistema de Seguridad Social Integral y se dictan otras disposiciones. Diciembre 23 de 1993. DO. N° 41148.',
       tipo: 'Página web',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0100_1993.html',
@@ -286,7 +286,37 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -303,7 +333,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

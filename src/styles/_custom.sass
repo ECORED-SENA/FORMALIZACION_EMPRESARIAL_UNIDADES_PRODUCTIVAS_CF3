@@ -12,6 +12,27 @@
   .banner-principal__row .banner-principal__img
     margin-right: -64px
 
+@media screen and ( max-width: 991px )
+  .bg-color2
+    position: relative
+    z-index: 1
+    display: flex
+    justify-content: center
+  .color2
+    padding: 2rem
+    background-color: #D7F8FC
+    width: 80%
+  .bg-color2::before
+    content: ''
+    display: block
+    position: absolute
+    width: 4%
+    height: 60%
+    left: 10% !important
+    top: 17%
+    background: #428bca
+    z-index: -1
+
 .bloque-texto-a.color-secundario
   background-color: #B2EBF2
 
@@ -83,16 +104,19 @@
 .bg-color2
   position: relative
   z-index: 1
+  display: flex
+  justify-content: center
   .color2
     padding: 2rem
     background-color: #D7F8FC
+    width: 90%
 .bg-color2::before
   content: ''
   display: block
   position: absolute
   width: 4%
   height: 60%
-  left: 0%
+  left: 5%
   top: 17%
   background: #428bca
   z-index: -1

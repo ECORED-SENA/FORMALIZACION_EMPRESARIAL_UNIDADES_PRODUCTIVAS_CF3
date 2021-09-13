@@ -7,18 +7,24 @@
       .titulo-principal__numero
         span 1
       h1 Responsabilidades de las unidades productivas
-    .bloque-texto-a.color-secundario.p-4.p-md-5(data-aos="fade-left")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-8.mb-4.mb-lg-0
-          .bloque-texto-a__texto.p-4
-            p En este apartado se exponen los temas referentes a la conceptualización del comerciante, las normas de los establecimientos comerciales, los derechos y deberes de los comerciantes.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/img1.svg', style="width: auto").m-auto
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-secundario.p-4(data-aos="fade-left")
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8.mb-4.mb-lg-0
+              .bloque-texto-a__texto.p-4
+                br
+                br
+                p En este apartado se exponen los temas referentes a la conceptualización del comerciante, las normas de los establecimientos comerciales, los derechos y deberes de los comerciantes.
+                br
+                br
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/img1.svg', style="width: auto").m-auto
     separador.mb-5
     #t_1_1
     .titulo-segundo
-      h2 1.1. Comerciantes
+      h2 1.1 Comerciantes
     .row.align-items-center.mb-4
       .col-lg-6.mb-4.mb-lg-0
         p Antes de entrar en detalle con las responsabilidades de las unidades productivas es necesario apropiarse del término que bajo la norma se establece para aquellas personas que consolidan una sociedad comercial, quienes pueden ejercer el comercio y quienes están inhabilitados para ejercer esta actividad. Este término es el de comerciante, según lo establecido en el Código de Comercio:
@@ -73,44 +79,44 @@
     separador.mb-5
     #t_1_2
     .titulo-segundo
-      h2 1.2. Normas para los establecimientos comerciales
+      h2 1.2 Normas para los establecimientos comerciales
     p.mb-5 En este apartado es importante tener presente que en la Ley 232 de 1995 se establecen las normas para el funcionamiento de los establecimientos comerciales. Es preciso decir que ninguna autoridad podrá exigir licencia o permiso de funcionamiento para la apertura, según lo establecido en el Artículo 515 del Código de Comercio, y también se pueden observar las obligaciones que deben cumplir los establecimientos abiertos al público como se indica en el siguiente gráfico interactivo:
     .tarjeta.tarjeta--boton.p-4.mb-5
       PasosB.color-acento-contenido
         .row.align-items-center.mt-4
-          .col-lg-6
+          .col-lg-6.order-2
             figure
               img(src='@/assets/curso/img6.svg', alt='Texto que describa la imagen')
-          .col-lg-6.bg-color2
+          .col-lg-6.bg-color2.order-1
             .color2
               p.mb-0 Cumplir todas las normas referentes al uso del suelo, horario, ubicación, intensidad auditiva y destinación expedida por la autoridad competente (puede solicitar la expedición del concepto ante la entidad de planeación).
         .row.align-items-center.mt-4
-          .col-md-6.mb-4.mb-md-0.bg-color2.ms-5
+          .col-lg-6.mb-4.mb-lg-0.bg-color2.ms-3
             .color2
               p.mb-0 Cumplimiento de las condiciones sanitarias (Ley 9 de 1979 y demás normas vigentes).
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/img7.svg', alt='Texto que describa la imagen')
         .row.align-items-center.mt-4
-          .col-lg-6
+          .col-lg-6.order-2
             figure
               img(src='@/assets/curso/img8.svg', alt='Texto que describa la imagen')
-          .col-lg-6.bg-color2
+          .col-lg-6.bg-color2.order-1
             .color2
               p.mb-0 Pagos por derechos de autor por obras musicales a las autoridades según lo establecido en la Ley 23 de 1982 y demás normas competentes.
         .row.align-items-center.mt-4
-          .col-md-6.mb-4.mb-md-0.bg-color2.ms-5
+          .col-lg-6.mb-4.mb-lg-0.bg-color2.ms-3
             .color2
               p.mb-0 Matricula mercantil vigente de la Cámara de Comercio según la jurisdicción.
-          .col-md-5
-            figure
+          .col-lg-5
+            figure(style="margin-bottom: -24px;")
               img(src='@/assets/curso/img9.svg', alt='Texto que describa la imagen')
         .row.align-items-center.mt-4
-          .col-lg-6
+          .col-lg-6.order-2
             figure
               img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen')
           .col-lg-6.bg-color2
-            .color2
+            .color2.order-1
               p.mb-0 Comunicar sobre la apertura del establecimiento a las entidades territoriales como la oficina de planeación (Decreto 1879, Art. 4, 2008).
     .row.justify-content-center(data-aos="fade-left")
       .col-8.p-4.bg-color1
@@ -119,11 +125,11 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-8.p-4.bg-color1
         .color1
-          p.mb-0 A su vez, es de mencionar que aquellos servidores públicos que soliciten requisitos no previstos o autorizados por el legislador estarán incurriendo en una falta gravísima y sancionable, según lo establecido en el Código Único Disciplinario.
+          p.mb-0 A su vez, es de mencionar que aquellos servidores públicos que soliciten requisitos no previstos o autorizados por el legislador estarán incurriendo en una falta gravísima y sancionable, según lo establecido en el #[b Código Único Disciplinario].
     separador.mb-5
     #t_1_3
     .titulo-segundo
-      h2 1.3. Deberes del comerciante
+      h2 1.3 Deberes del comerciante
     p.mb-4 También conocidos como las obligaciones de los comerciantes establecidas en el Artículo 19 del Código de Comercio; dichos deberes son:
     .row.align-items-center
       .col-lg-6.mb-4.mb-lg-0
@@ -157,7 +163,7 @@
     separador.mb-5
     #t_1_4
     .titulo-segundo
-      h2 1.4.	Derechos del comerciante
+      h2 1.4	Derechos del comerciante
     p.mb-4 De la misma forma como las unidades productivas, sociedades comerciales o empresarios deben cumplir con ciertos requisitos y deberes según lo planteado en el Código de Comercio, también adquieren derechos que les permite exigir en calidad de comerciante. Algunos de estos derechos son:
     .row.align-items-center.justify-content-center
       .col-lg-5.mb-4.mb-lg-0
