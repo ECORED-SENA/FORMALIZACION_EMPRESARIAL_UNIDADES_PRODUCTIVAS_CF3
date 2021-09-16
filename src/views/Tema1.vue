@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 1
       h1 Responsabilidades de las unidades productivas
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4(data-aos="fade-left")
           .row.m-0.align-items-center.justify-content-between
@@ -21,7 +21,6 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/img1.svg', style="width: auto").m-auto
-    separador.mb-5
     #t_1_1
     .titulo-segundo
       h2 1.1 Comerciantes
@@ -121,10 +120,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-8.p-4.bg-color1
         .color1
-          p.mb-0 Es importante resaltar que las autoridades policivas podrán verificar el cumplimiento de estos requisitos. El alcalde también es una figura pública que está en la potestad de actuar con quien no cumpla con los requisitos según lo establecido en el Código Contencioso Administrativo.
-    .row.justify-content-center(data-aos="fade-left")
-      .col-8.p-4.bg-color1
-        .color1
+          p Es importante resaltar que las autoridades policivas podrán verificar el cumplimiento de estos requisitos. El alcalde también es una figura pública que está en la potestad de actuar con quien no cumpla con los requisitos según lo establecido en el Código Contencioso Administrativo.
           p.mb-0 A su vez, es de mencionar que aquellos servidores públicos que soliciten requisitos no previstos o autorizados por el legislador estarán incurriendo en una falta gravísima y sancionable, según lo establecido en el #[b Código Único Disciplinario].
     separador.mb-5
     #t_1_3

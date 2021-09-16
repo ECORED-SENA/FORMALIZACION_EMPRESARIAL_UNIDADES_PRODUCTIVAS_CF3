@@ -7,10 +7,7 @@
       .titulo-principal__numero
         span 2
       h1 Obligaciones laborales y ambientales de las unidades productivas
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row.justify-content-center(data-aos="fade-left")
+    .row.justify-content-center(data-aos="fade-left").mb-5
       .col-10
         .bloque-texto-a.color-secundario.p-4.p-md-5
           .row.m-0.align-items-center.justify-content-between
@@ -20,7 +17,6 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/img17.svg', style="width: auto").m-auto
-    separador.mb-5
     #t_2_1
     .titulo-segundo
       h2 2.1	Normatividad laboral en Colombia
@@ -152,30 +148,31 @@
                 .col-sm-auto
                   a.boton.color-acento-contenido.texto-blanco(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo_pr001.html" target="_blank")
                     span Ver
-                    i.fas.fa-link
+                    i.fas.fa-link(style="color: #12263F !important;")
     separador.mb-5
     #t_2_3
     .titulo-segundo
       h2 2.3 Prestaciones sociales, seguridad social y otros beneficios contractuales
     p.mb-5 Además de las obligaciones salariales, el empleador debe cumplir con otros aspectos importantes que establece la norma ante las prestaciones sociales, seguridad social y otros beneficios contractuales, tal como se muestra en el siguiente gráfico interactivo:
-    figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/img32.svg', style="width: auto;").m-auto
-    .row
-      .col-lg-4.p-4.bg-color3
-        p.mb-0 #[b 1.] Las empresas pueden realizar contratos de trabajo y estos pueden ser de término fijo o indefinido de acuerdo con la duración, a su vez pueden pactarse de manera verbal o escrita. Es de resaltar que una vinculación laboral por medio de contrato genera al empleador el pago de una serie de obligaciones.
-      .col-lg-4.p-4.bg-color3
-        p #[b 2.] Deberá realizar el pago de las prestaciones sociales y aportes parafiscales.
-        p.mb-0 En las prestaciones sociales se encuentran beneficios como la prima de trabajo, las cesantías, los intereses a las cesantías y las vacaciones. Estos deberán ser liquidados y pagados por el empleador y está contemplado en los Artículos 186 y 306 del Código Sustantivo del Trabajo y la Ley 50 de 1990. 
-      .col-lg-4.p-4.bg-color3
-        p #[b 3.] Según lo contemplado en la Ley 100 de 1993, el empleador estará obligado a afiliar y pagar la seguridad social y los parafiscales a cada trabajador. Es preciso mencionar que el no cumplimiento de la norma puede acarrear una sanción por parte de UGPP y del Ministerio del Trabajo, demandas laborales y rechazo del pago de incapacidades médicas.
+    ImagenInfografica.color-secundario
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/img32.svg', alt='Texto que describa la imagen')
+      .tarjeta.color-acento-botones.p-3(x="28%" y="14%")
+        p.mb-0 Las empresas pueden realizar contratos de trabajo y estos pueden ser de término fijo o indefinido de acuerdo con la duración, a su vez pueden pactarse de manera verbal o escrita. Es de resaltar que una vinculación laboral por medio de contrato genera al empleador el pago de una serie de obligaciones.
+      .tarjeta.color-acento-botones.p-3(x="22%" y="50%")
+        p Deberá realizar el pago de las prestaciones sociales y aportes parafiscales.
+        p.mb-0 En las prestaciones sociales se encuentran beneficios como la prima de trabajo, las cesantías, los intereses a las cesantías y las vacaciones. Estos deberán ser liquidados y pagados por el empleador y está contemplado en los Artículos 186 y 306 del Código Sustantivo del Trabajo y la Ley 50 de 1990.
+      .tarjeta.color-acento-botones.p-3(x="27%" y="86%")
+        p Según lo contemplado en la Ley 100 de 1993, el empleador estará obligado a afiliar y pagar la seguridad social y los parafiscales a cada trabajador. Es preciso mencionar que el no cumplimiento de la norma puede acarrear una sanción por parte de UGPP y del Ministerio del Trabajo, demandas laborales y rechazo del pago de incapacidades médicas.
         p.mb-0 Aquí es importante tener en cuenta el Decreto 558 de 2020 que se estableció mediante el marco de emergencia sanitaria causada por el Covid-19.
-      .col-lg-4.p-4.bg-color3
-        p #[b 4.] Según lo establecido en el Artículo 230 el empleador debe cancelar la dotación cada cuatrimestre (abril, agosto, diciembre) a aquellos trabajadores que devengan hasta dos salarios mínimos. Estos deberán incluir a trabajadores que lleven hasta el momento tres meses de trabajo. 
+      .tarjeta.color-acento-botones.p-3(x="74%" y="14%")
+        p Según lo establecido en el Artículo 230 el empleador debe cancelar la dotación cada cuatrimestre (abril, agosto, diciembre) a aquellos trabajadores que devengan hasta dos salarios mínimos. Estos deberán incluir a trabajadores que lleven hasta el momento tres meses de trabajo. 
         p.mb-0 Por otra parte, es importante mencionar que la dotación no hace referencia a elementos de protección personal puesto que son diferentes, la primera está sujeta al salario del trabajador y la segunda se debe proveer sin excepción alguna.
-      .col-lg-4.p-4.bg-color3
-        p.mb-0 #[b 5.] Referente al auxilio de transporte, los trabajadores que devengan hasta dos salarios mínimos tendrán derecho a este auxilio. Es importante mencionar que el empleador no está obligado a pagar cuando se superan los dos salarios mínimos o cuando el trabajador no tiene la obligación de desplazarse (ejemplo: teletrabajo, autorización de licencias, incapacidad y vacaciones), lo cual está ratificado por el Concepto 02EE2020410600000024952 del 10-04-2020.
-      .col-lg-4.p-4.bg-color3
-        p.mb-0 #[b 6.] En cuanto a la incapacidad médica se pueden identificar dos tipos: de origen laboral o de origen común, esto es importante identificarlo, pues dependiendo de la incapacidad se indica el responsable del pago y el valor a liquidar.  Es importante resaltar que el empleador está obligado a incluir en la nómina los valores de la incapacidad sin haber recibido el reembolso por parte de la Empresa Prestadora de Salud (EPS), pues no se puede dejar sin pago al trabajador.
+      .tarjeta.color-acento-botones.p-3(x="80%" y="50%")
+        p Referente al auxilio de transporte, los trabajadores que devengan hasta dos salarios mínimos tendrán derecho a este auxilio. Es importante mencionar que el empleador no está obligado a pagar cuando se superan los dos salarios mínimos o cuando el trabajador no tiene la obligación de desplazarse (ejemplo: teletrabajo, autorización de licencias, incapacidad y vacaciones), lo cual está ratificado por el Concepto 02EE2020410600000024952 del 10-04-2020.
+      .tarjeta.color-acento-botones.p-3(x="74%" y="86%")
+        p.mb-0 En cuanto a la incapacidad médica se pueden identificar dos tipos: de origen laboral o de origen común, esto es importante identificarlo, pues dependiendo de la incapacidad se indica el responsable del pago y el valor a liquidar.  Es importante resaltar que el empleador está obligado a incluir en la nómina los valores de la incapacidad sin haber recibido el reembolso por parte de la Empresa Prestadora de Salud (EPS), pues no se puede dejar sin pago al trabajador.
     separador.mb-5
     #t_2_4
     .titulo-segundo
