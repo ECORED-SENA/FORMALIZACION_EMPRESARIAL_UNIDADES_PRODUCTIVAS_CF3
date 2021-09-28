@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Control, seguimiento y obligaciones legales de unidades productivas',
     descripcionCurso:
-      'Los temas tratados en este componente de formación permiten identificar y conocer en primer lugar, las responsabilidades laborales y en segundo lugar, las obligaciones laborales y ambientales de las unidades productivas.',
+      'Los temas tratados en este componente formativo permiten identificar y conocer en primer lugar, las responsabilidades laborales y en segundo lugar, las obligaciones laborales y ambientales de las unidades productivas.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -340,6 +340,16 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
